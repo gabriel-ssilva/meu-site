@@ -35,7 +35,10 @@ h2{
     margin-left: 0%;
     text-align: left;
 }
-
+.lista-lang{
+    font-size: 20px;
+    font-family: 'Gluten';
+}
 #lang-list{
     font-size: 20px;
     text-decoration: underline black;
