@@ -1,15 +1,18 @@
 body{
     background-image: url("../images/fundo.png");
+    background-repeat: no-repeat;
+    background-color:#38b6ff;
     width: auto;
     weight: auto;
     background-size: 100%;
 }
 .apresentacao{
     font-family: 'Open Sans', sans-serif;
+    max-width: 650px;
 }
 footer{
     position: absolute;
-    margin-left: 40%;
+    padding-left: 35%;
     bottom:0;
     text-align: center;
 }
@@ -17,7 +20,7 @@ footer{
     font-size: 20px;
     display: inline-block;
     text-align: right;
-    margin-left: 10%;
+    margin-left: 25%;
 }
 a:hover{
     text-decoration: none;
@@ -65,5 +68,5 @@ h2{
     font-family: 'Gluten', cursive;
     text-align: center;
     color: purple;
-    margin-left: 35%;
+    padding: initial;
 }
